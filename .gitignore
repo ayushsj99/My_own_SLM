@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Machine Learning Model Files and Data
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.model
+best_model_params.pt
+final_model_params.pt
+checkpoints/
+
+# Large Data Files  
+train.bin
+validation.bin
+*.bin
+
+# Virtual Environment
+venv*/
+.venv/
